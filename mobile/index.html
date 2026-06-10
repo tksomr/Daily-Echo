@@ -6,6 +6,22 @@
   <meta name="description" content="Daily-Echoの歩みをスマートフォンで読みやすくまとめたアーカイブページ。">
   <title>A Journey Of Daily-Echo | Mobile Archive</title>
   <link rel="stylesheet" href="style.css">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-F9WD2Q8EJF"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    
+    gtag('config', 'G-F9WD2Q8EJF', {
+        cookie_domain: 'auto'
+    });
+    
+    gtag('event', 'page_view', {
+        site_name: location.hostname
+    });
+  </script>
+  
 </head>
 <body>
   <header class="site-header">
@@ -20,7 +36,7 @@
     <section class="hero">
       <div class="hero-copy">
         <p class="eyebrow">1996–2007 / archive</p>
-        <h1>過ぎ去った日々に。</h1>
+        <h1>過ぎ去っていた日々に。</h1>
         <p class="lead">
           Daily-Echoの活動を記録したファンサイト
           「A Journey Of Daily-Echo」のスマートフォン向けアーカイブ。
@@ -226,6 +242,7 @@
     <a class="footer-brand" href="#top">A Journey Of Daily-Echo</a>
     <p>Last original update: September 27, 2007</p>
     <p class="footer-note">This mobile archive preserves the memories of Daily-Echo.</p>
+    <p class="footer-note"> powered by R<span class="footer-ai">AI</span>D-Web</p>
   </footer>
 </body>
 </html>

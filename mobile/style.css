@@ -118,10 +118,11 @@ main {
 .hero h1 {
   margin: 0;
   color: var(--blue);
-  font-size: clamp(34px, 11vw, 64px);
+  font-size: clamp(34px, 8vw, 56px);
   font-weight: 800;
   line-height: 1.28;
   letter-spacing: -0.05em;
+  white-space: nowrap;
 }
 
 .lead {
@@ -573,4 +574,8 @@ footer p {
   html {
     scroll-behavior: auto;
   }
+}
+
+.footer-ai {
+color: #50c878;
 }
